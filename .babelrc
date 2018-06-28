@@ -1,0 +1,19 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false
+    }],
+    "stage-1"
+  ],
+  "plugins": [
+    "transform-vue-jsx",
+    "syntax-dynamic-import",
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      }
+    ]
+  ]
+}
